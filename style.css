@@ -39,4 +39,52 @@ body::before{
     background: linear-gradient(to top, rgb(0 ,0, 0, 0.15), rgb(255, 255, 255, 0.15));
     border-radius : 15px;
     backdrop-filter: blur(200px);
+    padding: 20px;  
+}
+
+
+/*
+Input Section
+*/
+
+.input-container{
+    position: relative;
+    margin-bottom : 30px;
+
+}
+.city-input{
+    width : 100%;
+    height : 40px;
+    border-radius : 99px;
+    border : 3px solid transparent;
+    outline : none;
+    padding : 10px 16px;
+    padding-right : 45px;
+    font-weight : 500;
+    background : rgb(255, 255, 255, 0.25);
+    transition: 0.25s border;
+}
+.city-input:focus{
+    border : 3px solid rgb(153, 190, 212);
+}
+
+.city-input::placeholder{
+    color : rgb(227, 239, 243);
+}
+
+.get-weather-btn{
+    position: absolute;
+    right : 16px;
+    top : 50%;
+    transform : translateY(-50%);
+    background :none;
+    display : flex;
+    cursor : pointer;
+    border : none;
+}
+
+/* Weather Sectioon*/
+
+.weather-info{
+    border : solid ;
 }
