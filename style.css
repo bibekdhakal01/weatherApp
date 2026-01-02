@@ -6,6 +6,7 @@
     box-sizing : border-box;
     font-family: "Space Grotesk", sans-serif;
     color: white;
+    font-weight: 600;
 
 }
 
@@ -32,6 +33,22 @@ body::before{
 
 }
 
+/*
+reuseable utility classes
+*/
+.regular-txt {
+    font-weight : 400;
+    }
+
+
+
+
+
+
+
+
+
+
 .main-container {
     width : 300px;
     height : 496px;
@@ -49,9 +66,10 @@ Input Section
 
 .input-container{
     position: relative;
-    margin-bottom : 30px;
+    margin-bottom : 25px;
 
 }
+
 .city-input{
     width : 100%;
     height : 40px;
@@ -64,6 +82,7 @@ Input Section
     background : rgb(255, 255, 255, 0.25);
     transition: 0.25s border;
 }
+
 .city-input:focus{
     border : 3px solid rgb(153, 190, 212);
 }
@@ -85,6 +104,18 @@ Input Section
 
 /* Weather Sectioon*/
 
-.weather-info{
-    border : solid ;
+.weather-info {
+ 
+}
+
+.location-date-container{
+    display : flex;
+    justify-content: space-between;
+    align-items : center;
+}
+
+.location{
+    display : flex;
+    align-items: center;
+    gap : 6px; 
 }
