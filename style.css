@@ -189,3 +189,10 @@ Input Section
     width : 35px;
     height : 35px;
 }
+
+/* Search City : message*/
+
+.message-img{
+    height: 180px;
+    width: fit-content;
+}
